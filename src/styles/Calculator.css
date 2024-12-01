@@ -1,0 +1,83 @@
+/* Calculator Container */
+.calculator {
+    width: 320px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  /* Display Area */
+  .calculator-display {
+    background-color: #282c34;
+    color: #ffffff;
+    padding: 15px 20px;
+    font-size: 28px;
+    text-align: right;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    height: 70px;
+    line-height: 1.5;
+  }
+  
+  /* Buttons Grid */
+  .calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Buttons General Styles */
+  .calculator-button {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  /* Numeric and General Buttons */
+  .calculator-button.number {
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  .calculator-button.number:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Operation Buttons (+, -, *, /) */
+  .calculator-button.operation {
+    background-color: #ffd700;
+    color: #ffffff;
+  }
+  
+  .calculator-button.operation:hover {
+    background-color: #ffc107;
+  }
+  
+  /* Equals Button */
+  .calculator-button.equals {
+    background-color: #4caf50;
+    color: #ffffff;
+  }
+  
+  .calculator-button.equals:hover {
+    background-color: #45a049;
+  }
+  
+  /* Clear Button (C) */
+  .calculator-button.clear {
+    background-color: #f44336;
+    color: #ffffff;
+  }
+  
+  .calculator-button.clear:hover {
+    background-color: #e53935;
+  }
+  
